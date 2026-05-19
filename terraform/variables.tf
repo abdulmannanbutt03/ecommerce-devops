@@ -1,0 +1,19 @@
+variable "aws_region" {
+  description = "AWS region"
+  default     = "us-east-1"
+}
+
+variable "project_name" {
+  description = "Project name"
+  default     = "ecommerce"
+}
+
+variable "environment" {
+  description = "Environment name"
+  default     = "dev"
+}
+
+variable "vpc_cidr" {
+  description = "VPC CIDR block"
+  default     = "10.0.0.0/16"
+}
