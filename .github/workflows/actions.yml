@@ -43,7 +43,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./frontend
           push: true
           tags: |
             ghcr.io/abdulmannanbutt03/ecommerce-devops:${{ github.sha }}
