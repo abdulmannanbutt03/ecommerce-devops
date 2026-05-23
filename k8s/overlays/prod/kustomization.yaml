@@ -2,4 +2,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
   - name: ghcr.io/abdulmannanbutt03/ecommerce-devops
-    newTag: latest
+    newTag: d9987b6f0d0a830d77825a750a80a654b9db982d
